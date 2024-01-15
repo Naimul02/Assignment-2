@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mulish:wght@400;500;600;700;800&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* shared styles */
+.btn-primary {
+  width: 170px;
+  height: 50px;
+  background-color: #ff5400;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+/* bannrer section */
+.header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.banner-section {
+  min-height: 500px;
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+
+.banner-container {
+  max-width: 800px;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8),
+    rgba(19, 19, 24, 0)
+  );
+  padding: 10px;
+}
+.banner-title {
+  font-size: 64px;
+  font-weight: 800;
+  color: white;
+}
+.banner-description {
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.banner-input input {
+  width: 170px;
+  height: 50px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  padding: 16px;
+  margin-right: 16px;
+}
+.search-icon {
+  font-size: 16px;
+}
