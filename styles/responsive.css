@@ -45,7 +45,15 @@
   .destination-section {
     margin: 16px;
   }
-  .row {
+  .row,
+  .choose-row {
     flex-direction: column;
+  }
+  /* choose us */
+  .choose-us-section {
+    margin: 16px;
+  }
+  .choose-row .card {
+    max-height: 289px;
   }
 }
