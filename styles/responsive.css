@@ -28,4 +28,17 @@
     height: 50px;
     margin-right: 0;
   }
+  /* tour section */
+  .popular-tours {
+    flex-direction: column;
+    margin: 16px;
+  }
+  .tour-title {
+    font-size: 24px;
+    margin-top: 24px;
+    font-weight: 800;
+  }
+  .tour-img img {
+    width: 100%;
+  }
 }
