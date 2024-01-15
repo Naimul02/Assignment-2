@@ -41,4 +41,11 @@
   .tour-img img {
     width: 100%;
   }
+  /* destination */
+  .destination-section {
+    margin: 16px;
+  }
+  .row {
+    flex-direction: column;
+  }
 }

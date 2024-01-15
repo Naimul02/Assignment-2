@@ -25,7 +25,7 @@ body {
 }
 .banner-section {
   min-height: 500px;
-  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: url("../images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -102,4 +102,57 @@ body {
 }
 .p-left {
   margin-left: 30px;
+}
+
+/* destination section */
+.destination-section {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  margin-top: 100px;
+}
+.about-dest {
+  text-align: center;
+}
+#para {
+  margin: 24px 0 45px 0;
+}
+.row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.set-position {
+  position: relative;
+}
+.set-position img {
+  width: 100%;
+}
+.set-position > h3 {
+  position: absolute;
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+}
+.maldives {
+  top: 42%;
+  left: 38%;
+}
+.indonesia,
+.bandarban {
+  top: 42%;
+  left: 38%;
+}
+.srilanka {
+  top: 42%;
+  left: 33%;
+}
+.north-america {
+  top: 42%;
+  left: 28%;
+}
+.kashmir,
+.bangladesh {
+  top: 42%;
+  left: 30%;
 }
