@@ -65,12 +65,44 @@
   .choose-row {
     flex-direction: column;
   }
+  .maldives {
+    top: 42%;
+    left: 32%;
+  }
+  .indonesia,
+  .bandarban {
+    top: 42%;
+    left: 30%;
+  }
+  .srilanka {
+    top: 42%;
+    left: 33%;
+  }
+  .north-america {
+    top: 42%;
+    left: 20%;
+  }
+  .kashmir {
+    top: 45%;
+    left: 32%;
+  }
+  .bangladesh {
+    top: 40%;
+    left: 28%;
+  }
   /* choose us */
   .choose-us-section {
     margin: 16px;
   }
   .choose-row .card {
     max-height: 289px;
+  }
+  /* hotel section */
+  .hotel-booking-section {
+    margin: 16px;
+  }
+  .grid-card-container {
+    grid-template-columns: 1fr;
   }
   /* newsletter  section */
   .news-letter-section {
@@ -110,6 +142,10 @@
   }
   .newsletter-input-field {
     padding-bottom: 20px;
+  }
+  .hr {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   /* footer section */
