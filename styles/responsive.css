@@ -1,4 +1,20 @@
 @media screen and (max-width: 600px) {
+  .footer-img-title {
+    align-items: center;
+  }
+  .hero-title-vai {
+    font-size: 21px;
+  }
+  .navigation-bar {
+    margin: 16px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+    font-size: 24px;
+  }
   .banner-section {
     margin: 16px;
   }
@@ -94,5 +110,10 @@
   }
   .newsletter-input-field {
     padding-bottom: 20px;
+  }
+
+  /* footer section */
+  .footer-section {
+    padding: 30px 44px;
   }
 }
