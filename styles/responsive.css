@@ -56,4 +56,43 @@
   .choose-row .card {
     max-height: 289px;
   }
+  /* newsletter  section */
+  .news-letter-section {
+    flex-direction: column;
+    margin: 16px;
+  }
+  .new-letter-img img {
+    width: 100%;
+  }
+  .discount-70 {
+    max-width: 250px;
+    padding: 20px;
+    bottom: 35px;
+  }
+  .discount-70 > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .discount-70 > p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .subscribe {
+    min-width: 290px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .newsletter-input-field input {
+    min-width: 290px;
+    height: 40px;
+    margin-left: 24px;
+  }
+  .news-letter-title {
+    padding-top: 25px;
+  }
+  .newsletter-input-field {
+    padding-bottom: 20px;
+  }
 }
